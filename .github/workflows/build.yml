@@ -1,9 +1,9 @@
-name: Build and publish image
+name: Build, smoke-test, and publish image
 
-# Publishes ghcr.io/<org>/<repo>:latest on every push to main.
-# Deliberately does NOT deploy: it holds no server credentials. The server pulls
-# the published image (docker compose pull website && up -d), so the deploy SSH
-# key never needs to exist in this repository.
+# Publishes ghcr.io/<org>/<repo>:latest on every push to main, but ONLY after the
+# built container is run and proven to serve. The image that is pushed is the exact
+# image that was tested (retag + push, not a rebuild). Holds no server credentials:
+# the server pulls the published image, so the deploy SSH key never lives here.
 
 on:
   push:
@@ -16,27 +16,20 @@ env:
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build-and-push:
+  build-test-publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read
       packages: write
 
     steps:
-      # Actions are pinned to immutable commit SHAs (not floating tags) so a
-      # moved tag upstream cannot change what runs here.
+      # Actions pinned to immutable commit SHAs so a moved upstream tag cannot
+      # change what runs here.
       - name: Checkout repository
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3.12.0
-
-      - name: Log in to Container Registry
-        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3.7.0
-        with:
-          registry: ${{ env.REGISTRY }}
-          username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract metadata
         id: meta
@@ -48,12 +41,85 @@ jobs:
             type=sha,prefix={{branch}}-
             type=raw,value=latest,enable={{is_default_branch}}
 
-      - name: Build and push image
+      # Build once into the local daemon (single-arch, matches the amd64 server) so
+      # the SAME image is what we test AND publish.
+      - name: Build image (load for smoke test)
         uses: docker/build-push-action@ca052bb54ab0790a636c9b5f226502c73d547a25 # v5.4.0
         with:
           context: .
-          push: true
-          tags: ${{ steps.meta.outputs.tags }}
-          labels: ${{ steps.meta.outputs.labels }}
+          load: true
+          tags: nostrarabia-website:ci
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Smoke-test the running container
+        run: |
+          set -euo pipefail
+          docker run -d --name smoke -p 3000:3000 nostrarabia-website:ci
+
+          echo "waiting for the server to accept requests..."
+          ready=0
+          for i in $(seq 1 45); do
+            if curl -sf -o /dev/null http://localhost:3000/; then echo "ready after ${i}s"; ready=1; break; fi
+            sleep 1
+          done
+          if [ "$ready" != "1" ]; then echo "::error::server never became ready"; docker logs smoke; docker rm -f smoke; exit 1; fi
+
+          fail=0
+
+          # 1) Homepage renders the RTL Arabic layout (proves the app rendered, not just a 200).
+          #    Write to a file first: piping curl into `grep -q` under pipefail is a SIGPIPE
+          #    race (grep exits on match, curl dies with EPIPE, pipefail fails a healthy page).
+          curl -sf http://localhost:3000/ -o /tmp/home.html || { echo "::error::homepage did not return 2xx"; fail=1; }
+          grep -q 'dir="rtl"' /tmp/home.html || { echo "::error::homepage did not contain dir=\"rtl\""; fail=1; }
+
+          # 2) C01 invariant: /.well-known/nostr.json = 35 identities, application/json, CORS *.
+          code=$(curl -s -o /tmp/nj.json -w '%{http_code}' -D /tmp/nj.hdr http://localhost:3000/.well-known/nostr.json)
+          [ "$code" = "200" ] || { echo "::error::nostr.json HTTP $code"; fail=1; }
+          grep -iq '^content-type: *application/json' /tmp/nj.hdr || { echo "::error::nostr.json wrong content-type"; fail=1; }
+          grep -iq '^access-control-allow-origin: *\*' /tmp/nj.hdr || { echo "::error::nostr.json missing CORS *"; fail=1; }
+          n=$(jq '.names | length' /tmp/nj.json 2>/dev/null || echo 0)
+          [ "$n" = "35" ] || { echo "::error::nostr.json has $n names, expected 35"; fail=1; }
+
+          # 3) Dynamic API routes function (200 + a valid state). We do NOT assert
+          #    'online' — the upstream relay/media could be transiently down and that
+          #    would make CI flaky; we assert the ROUTE HANDLER works.
+          for r in api/relay-status api/media-status; do
+            s=$(curl -sf "http://localhost:3000/$r" | jq -r '.state // "MISSING"' 2>/dev/null || echo ERR)
+            case "$s" in
+              online|degraded|offline|unknown) echo "/$r -> $s" ;;
+              *) echo "::error::/$r returned bad state '$s'"; fail=1 ;;
+            esac
+          done
+
+          # 4) Security headers present on / (a broken header config is a real regression).
+          curl -sf -D /tmp/root.hdr -o /dev/null http://localhost:3000/
+          grep -iq '^content-security-policy:' /tmp/root.hdr || { echo "::error::missing Content-Security-Policy"; fail=1; }
+          grep -iq '^x-frame-options: *DENY' /tmp/root.hdr || { echo "::error::missing X-Frame-Options: DENY"; fail=1; }
+
+          echo "--- container logs (tail) ---"; docker logs smoke | tail -15
+          docker rm -f smoke >/dev/null 2>&1 || true
+          [ "$fail" = "0" ] || { echo "::error::SMOKE TEST FAILED"; exit 1; }
+          echo "SMOKE TEST PASSED"
+
+      # Only reached if the smoke test passed. Publish the EXACT tested image.
+      - name: Log in to Container Registry
+        uses: docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9 # v3.7.0
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Tag and push the tested image
+        env:
+          # Pass through env, not inlined into the script body (avoids the GitHub
+          # ${{ }}-in-run script-injection anti-pattern).
+          TAGS: ${{ steps.meta.outputs.tags }}
+        run: |
+          set -euo pipefail
+          while IFS= read -r tag; do
+            [ -z "$tag" ] && continue
+            docker tag nostrarabia-website:ci "$tag"
+            docker push "$tag"
+            echo "pushed $tag"
+          done <<< "$TAGS"
