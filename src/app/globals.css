@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-noto-arabic), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, Menlo, Consolas, monospace;
+
+  --color-brand-bg: #0C0C12;
+  --color-brand-surface: #171722;
+  --color-brand-text: #F7F7FB;
+  --color-brand-muted: #B7B7C6;
+  --color-brand-orange: #FF9D2E;
+  --color-brand-purple: #9B6CFF;
+
+  /* FILL ONLY. Measures 2.97:1 on bg and 2.70:1 on surface, so it fails both the
+     4.5:1 text floor and the 3:1 non-text floor of WCAG 1.4.11. Legal as a solid
+     background under --color-brand-text (6.15:1), or as a non-informational
+     decoration. Never a border, icon, focus ring, link colour or text colour.
+     If you reached for this as "the brand border", you want --color-brand-border-ui. */
+  --color-brand-purple-strong: #6B2FE8;
+
+  --color-brand-danger: #FF6B6B;
+  --color-brand-success: #4FD1A5;
+
+  /* Functional boundaries. 3.85:1 on bg, 3.51:1 on surface, so it clears 1.4.11
+     for a component boundary. Mandatory for form controls, copy buttons, status
+     pill rings, ghost button outlines. The whole grey ramp below it fails. */
+  --color-brand-border-ui: #6C6C8A;
+
+  /* Decorative only. 1.38:1 on bg. Legal under 1.4.11 solely because it carries
+     no information: section rules, row separators, and card edges where the card
+     is also identified by its heading and its padding. Using it on a control is a defect. */
+  --color-brand-hairline: #2A2A3A;
+
+  --color-brand-warning: #FFC24D;
+  --color-brand-neutral: #9797AC;
+  --color-brand-danger-tint: #22161A;
+}
+
+@layer base {
+  html {
+    /* Arabic renders optically smaller than Latin at the same pixel size, so the
+       base is 17px rather than 16, and body leading is 1.75 rather than 1.5
+       because Arabic ascenders, descenders and dot marks collide at Latin leading. */
+    font-size: 17px;
+  }
+
+  body {
+    background-color: var(--color-brand-bg);
+    color: var(--color-brand-text);
+    line-height: 1.75;
+  }
+
+  /* A global tracking utility shatters Arabic joining. Latin runs opt back in
+     locally via .tracking-latin below. */
+  [lang="ar"] {
+    letter-spacing: 0;
+  }
+
+  /* Arabic has no italic form. Synthesised obliques are a legibility defect. */
+  [lang="ar"] i,
+  [lang="ar"] em {
+    font-style: normal;
+  }
+
+  /* One focus rule, never overridden. Removing an outline without replacing it
+     is build blocking. */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-orange);
+    outline-offset: 2px;
+    border-radius: inherit;
+  }
+
+  /* The header is sticky, so anything the browser scrolls to must clear it or it
+     lands underneath (WCAG 2.4.11, Focus Not Obscured).
+
+     [id] alone covers anchor jumps but NOT keyboard focus. Shift+Tab back up a
+     page scrolls the focused control to the very top of the scrollport, with no
+     clearance, so it ends up behind the header. Every focusable element needs
+     the margin, not only anchor targets. */
+  /* The clearance must exceed the TALLEST the sticky header gets, not the
+     shortest. Making the nav visible on phones let the bar wrap to two nav rows,
+     measured at 121px below 412px and 86px up to 700px, while this was still a
+     flat 5rem (85px at a 17px root). Backwards tabbing then parked the focused
+     control entirely behind the bar, which is the exact failure this selector
+     list was widened to fix. Values are set per band against those measurements. */
+  [id],
+  a,
+  button,
+  input,
+  select,
+  textarea,
+  [tabindex] {
+    scroll-margin-block-start: 8.5rem;
+  }
+
+  @media (min-width: 700px) {
+    [id],
+    a,
+    button,
+    input,
+    select,
+    textarea,
+    [tabindex] {
+      scroll-margin-block-start: 5rem;
+    }
+  }
+
+  h1, h2, h3 {
+    text-wrap: balance;
+    letter-spacing: 0;
+  }
+}
+
+@layer utilities {
+  /* Latin runs may track. Arabic never does. */
+  .tracking-latin {
+    letter-spacing: 0.01em;
+  }
+}

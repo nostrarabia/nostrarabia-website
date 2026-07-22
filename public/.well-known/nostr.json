@@ -1,0 +1,146 @@
+{
+  "names": {
+    "tkay": "9cb3545c36940d9a2ef86d50d5c7a8fab90310cc898c4344bcfc4c822ff47bca",
+    "alp": "f527cf970ce260e74261214bf612e8f75a59db1835ed7e4053326c3f65e232ee",
+    "sooly": "b8851a06dfd79d48fc325234a15e9a46a32a0982a823b54cdf82514b9b120ba1",
+    "MuaawiyahTucker": "bc6b35153170198badf225e6d8ea46c377f910126558d9246dd167735c6d6327",
+    "nour": "02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9",
+    "MuslimBitcoiner": "e0921d610ee655396cfac6c9907b6ad11f3a1dde5770029e1284e6cae0fe7bd5",
+    "CUTS": "0758dac8fe652c8b98c3465decca26d40d4d5620f74e97fb71a3be443b81e1fc",
+    "SovereignArab": "5b6e3968421a01e02999c22dd691d7c8582a1aea765d66dabd704eeb28ec3fb4",
+    "bam": "4f11dd018fdc89ca8f8f1d7195f9b373dd5708e3f5a3b227cae8fa40cdeb9f3c",
+    "IslamicAudiobooksCentral": "51013526828bac6a18e07b94a0b4f3c3d337c9604fb5cd7bc9b3f444afbc96e1",
+    "ismail": "03ed9859b3ede76a7883bce18d26b5f1cb974f867db2484e6869690f9c20ec9e",
+    "palestine": "f437d02adebcace756fdb5370ed382d86883ed505d31f337ab3e6fc787b2b302",
+    "44": "40a7b11050a7391a082daf09610c1bd03d61833cc910a039d9e9f7f869cf67fa",
+    "abuali": "010ed88ccb6c5c0224435fcdc672cab18ed04840c7d4c73c7152fc7400061dea",
+    "ibnimam": "f33285217e976ad9caf0546445ad8107db98f65967cdce6cce45e60da00ee32a",
+    "cryptonator": "1e7f93b253e70e03739edc44a69b7f320b594c10e02a5afbaee953df5c779c78",
+    "arabichodl": "227cfe6e18b9ad8b1ecbfe25df5f9753ad5d082c69661ea63f48a462b16490db",
+    "Mohammed": "0a5fb138cf3afec856cdc33c52a1587234016a9d715df6b01dee8b5488c348a0",
+    "amrush": "29926e948ce49aa8d12b1e123dc30eb77c398bb0a8325c7f2aafa0a81a0b3b92",
+    "powmaxi": "0f5ff4a7b2b7e3c0655ce177cd0f59a20d64cfa454b1d711e08ee7bd146ed665",
+    "yasser": "063938c133699628d3f6bc7707b4070b430b6c870e0ae9f846357b024bc61dcd",
+    "bahar": "d0d964813b2f2ff950b78ca6056b815161927e96a01cfb3c3c3f54affbf11de3",
+    "bitcoin_way": "464e8875351c6554527dd4ba3071a0e4f466b6b0383282645543f380b7df92fd",
+    "jalmoud": "8f0a121e568e31dae512e138317bc39bdc96cae4de7bc74f191acc4924038909",
+    "tkayar": "a4a9df1630ef1b2f22b3c5ba56a14773c2b99f7a9eafaca30d7d6f90767acd9f",
+    "H": "0328f24b55099f3da8dced4e04d20dccd6e8286fd0131905b474edbedc2fb5e2",
+    "acil": "a25d0d014235be54c2febc12ee9c709e3c8c63f7b025ab886938ea56c9ac0d1b",
+    "itdestro": "12e974a0c739c03f989eeb4517eb4dd5cb119315d73b3d188eed69f0752f3d8e",
+    "obaidaldadi": "459c2642e1c3cc1c4ead86dbae3b791c12d79b0733bc29f5e5b67e591771c0eb",
+    "kasim": "f96654d12af0fdde9d4e6904c1b3d89318d427d6adc23df840c1791e17bd46b1",
+    "nostrarabia": "812cff5afa5d9c3b4082b82c70365cfd2d279c27aa912313b8fcbfd65c40aeeb",
+    "saad": "04d6ee7155053e07a0b580a8a54c5deeaba8450b15bf34744626d9f789b82083",
+    "fahmawi": "2181959b61e2f8d55bfa728b8f8414dcbb83496a92dc915f2834fb7780f0d27d",
+    "seewaan": "c0de0e949d56503f8f8e21e00bc278a0bd542eeb8cc65221f6b4b05674df4ce7",
+    "AlexBarq": "f9fc3e560de034a66b8dab4dabe7bced13435293b363cb979a1933f82299f805"
+  },
+  "relays": {
+    "9cb3545c36940d9a2ef86d50d5c7a8fab90310cc898c4344bcfc4c822ff47bca": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "f527cf970ce260e74261214bf612e8f75a59db1835ed7e4053326c3f65e232ee": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "b8851a06dfd79d48fc325234a15e9a46a32a0982a823b54cdf82514b9b120ba1": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "bc6b35153170198badf225e6d8ea46c377f910126558d9246dd167735c6d6327": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "02a11d1545114ab63c29958093c91b9f88618e56fee037b9d2fabcff32f62ea9": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "e0921d610ee655396cfac6c9907b6ad11f3a1dde5770029e1284e6cae0fe7bd5": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "0758dac8fe652c8b98c3465decca26d40d4d5620f74e97fb71a3be443b81e1fc": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "5b6e3968421a01e02999c22dd691d7c8582a1aea765d66dabd704eeb28ec3fb4": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "4f11dd018fdc89ca8f8f1d7195f9b373dd5708e3f5a3b227cae8fa40cdeb9f3c": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "51013526828bac6a18e07b94a0b4f3c3d337c9604fb5cd7bc9b3f444afbc96e1": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "03ed9859b3ede76a7883bce18d26b5f1cb974f867db2484e6869690f9c20ec9e": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "f437d02adebcace756fdb5370ed382d86883ed505d31f337ab3e6fc787b2b302": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "40a7b11050a7391a082daf09610c1bd03d61833cc910a039d9e9f7f869cf67fa": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "010ed88ccb6c5c0224435fcdc672cab18ed04840c7d4c73c7152fc7400061dea": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "f33285217e976ad9caf0546445ad8107db98f65967cdce6cce45e60da00ee32a": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "1e7f93b253e70e03739edc44a69b7f320b594c10e02a5afbaee953df5c779c78": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "227cfe6e18b9ad8b1ecbfe25df5f9753ad5d082c69661ea63f48a462b16490db": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "0a5fb138cf3afec856cdc33c52a1587234016a9d715df6b01dee8b5488c348a0": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "29926e948ce49aa8d12b1e123dc30eb77c398bb0a8325c7f2aafa0a81a0b3b92": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "0f5ff4a7b2b7e3c0655ce177cd0f59a20d64cfa454b1d711e08ee7bd146ed665": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "063938c133699628d3f6bc7707b4070b430b6c870e0ae9f846357b024bc61dcd": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "d0d964813b2f2ff950b78ca6056b815161927e96a01cfb3c3c3f54affbf11de3": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "464e8875351c6554527dd4ba3071a0e4f466b6b0383282645543f380b7df92fd": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "8f0a121e568e31dae512e138317bc39bdc96cae4de7bc74f191acc4924038909": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "a4a9df1630ef1b2f22b3c5ba56a14773c2b99f7a9eafaca30d7d6f90767acd9f": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "0328f24b55099f3da8dced4e04d20dccd6e8286fd0131905b474edbedc2fb5e2": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "a25d0d014235be54c2febc12ee9c709e3c8c63f7b025ab886938ea56c9ac0d1b": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "12e974a0c739c03f989eeb4517eb4dd5cb119315d73b3d188eed69f0752f3d8e": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "459c2642e1c3cc1c4ead86dbae3b791c12d79b0733bc29f5e5b67e591771c0eb": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "f96654d12af0fdde9d4e6904c1b3d89318d427d6adc23df840c1791e17bd46b1": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "812cff5afa5d9c3b4082b82c70365cfd2d279c27aa912313b8fcbfd65c40aeeb": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "04d6ee7155053e07a0b580a8a54c5deeaba8450b15bf34744626d9f789b82083": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "2181959b61e2f8d55bfa728b8f8414dcbb83496a92dc915f2834fb7780f0d27d": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "c0de0e949d56503f8f8e21e00bc278a0bd542eeb8cc65221f6b4b05674df4ce7": [
+      "wss://relay.nostrarabia.com"
+    ],
+    "f9fc3e560de034a66b8dab4dabe7bced13435293b363cb979a1933f82299f805": [
+      "wss://relay.nostrarabia.com"
+    ]
+  }
+}

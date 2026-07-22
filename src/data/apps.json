@@ -1,0 +1,1105 @@
+{
+  "generated": "2026-07-21",
+  "sources": [
+    "aljazceru/awesome-nostr",
+    "nostrapps.com",
+    "session verification"
+  ],
+  "totalApps": 121,
+  "categories": [
+    {
+      "slug": "onboarding",
+      "nameAr": "البداية على نوستر",
+      "descAr": "أوّل خطوة لإنشاء مفتاحك والدخول إلى الشبكة.",
+      "apps": [
+        {
+          "name": "Nstart",
+          "url": "https://nstart.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "poor",
+          "descAr": "معالج يرشدك خطوة بخطوة لإنشاء حساب نوستر وحفظ مفتاحك بأمان. ابدأ من هنا لأنه أوضح طريق لمن لم يجرب نوستر من قبل.",
+          "pick": true
+        }
+      ]
+    },
+    {
+      "slug": "signers",
+      "nameAr": "مفاتيح وتوقيع",
+      "descAr": "يحفظ رقمك السري ويوقّع نيابةً عنك.",
+      "apps": [
+        {
+          "name": "Amber",
+          "url": "https://f-droid.org/packages/com.greenart7c3.nostrsigner/",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "Amber يحفظ مفتاحك السري داخل تطبيق واحد على الأندرويد ويوقع نيابة عنك في بقية التطبيقات. ابدأ به لأنه يحمي مفتاحك من أول يوم على الهاتف.",
+          "pick": true
+        },
+        {
+          "name": "Aegis",
+          "url": "https://github.com/ZharlieW/Aegis",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "Aegis تطبيق أندرويد يحتفظ بمفتاحك ويوقع الأحداث بدل إدخال المفتاح في كل تطبيق.",
+          "pick": false
+        },
+        {
+          "name": "Keys.Band",
+          "url": "https://chromewebstore.google.com/detail/keysband/jdencabhccnfhedpfoojbbdlgmecnlkm",
+          "platformsAr": "إضافة كروم",
+          "arabicSupport": "unknown",
+          "descAr": "Keys.Band إضافة كروم تحفظ عدة مفاتيح وتوقع بدلا عنك بواجهة بسيطة.",
+          "pick": false
+        },
+        {
+          "name": "nos2x",
+          "url": "https://chromewebstore.google.com/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp",
+          "platformsAr": "إضافة كروم",
+          "arabicSupport": "unknown",
+          "descAr": "nos2x إضافة لمتصفح كروم تحفظ مفتاحك وتوقع بدلا عنك في مواقع نوستر.",
+          "pick": false
+        },
+        {
+          "name": "nos2x-fox",
+          "url": "https://addons.mozilla.org/en-US/firefox/addon/nos2x-fox/",
+          "platformsAr": "إضافة فايرفوكس",
+          "arabicSupport": "unknown",
+          "descAr": "nos2x-fox هو نفس الإضافة لمتصفح فايرفوكس ويحفظ مفتاحك ويوقع عنك.",
+          "pick": false
+        },
+        {
+          "name": "Nostash",
+          "url": "https://apps.apple.com/us/app/nostash/id6744309333",
+          "platformsAr": "آيفون، آيباد، ماك عبر سفاري",
+          "arabicSupport": "unknown",
+          "descAr": "Nostash إضافة سفاري على الايفون والماك توقع نيابة عنك بدون كشف مفتاحك.",
+          "pick": false
+        },
+        {
+          "name": "Nostrame",
+          "url": "https://chromewebstore.google.com/detail/nostrame/phfdiknibomfgpefcicfckkklimoniej",
+          "platformsAr": "إضافة كروم",
+          "arabicSupport": "unknown",
+          "descAr": "Nostrame إضافة كروم تدير عدة حسابات نوستر وتوقع نيابة عنك.",
+          "pick": false
+        },
+        {
+          "name": "nsec.app",
+          "url": "https://use.nsec.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "nsec.app يحفظ مفتاحك في المتصفح ويسمح بالدخول إلى مواقع نوستر بدون لصق المفتاح.",
+          "pick": false
+        },
+        {
+          "name": "Sidecar",
+          "url": "https://sidecar.top/",
+          "platformsAr": "كروم",
+          "arabicSupport": "unknown",
+          "descAr": "إضافة متصفح توقع أحداث نوستر وتحمل محفظة لايتنينغ صغيرة داخلها. للحاسوب فقط.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "social",
+      "nameAr": "تواصل اجتماعي",
+      "descAr": "منشورات ومتابعة وردود.",
+      "apps": [
+        {
+          "name": "Amethyst",
+          "url": "https://amethyst.social/",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "rtl-ok",
+          "descAr": "تطبيق نوستر لهواتف أندرويد وواجهته متوفرة بالعربية. هو الخيار الأول للمبتدئ العربي لأنّ أكثره بالعربية ويُعرض من اليمين إلى اليسار.",
+          "pick": true
+        },
+        {
+          "name": "Jumble",
+          "url": "https://jumble.social/",
+          "platformsAr": "الويب",
+          "arabicSupport": "rtl-ok",
+          "descAr": "موقع خفيف لتصفح المنشورات ويعرض العربية من اليمين إلى اليسار. ابدأ به على الحاسوب لأنه الموقع المؤكد أنه يعرض العربية بشكل صحيح.",
+          "pick": true
+        },
+        {
+          "name": "Asknostr",
+          "url": "https://asknostr.site/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع أسئلة وأجوبة يجيب فيه الناس على أسئلة بعضهم. ابدأ به لأنك تستطيع طرح سؤالك الأول والحصول على إجابة من الناس.",
+          "pick": true
+        },
+        {
+          "name": "Damus",
+          "url": "https://damus.io/",
+          "platformsAr": "آيفون، ماك",
+          "arabicSupport": "rtl-ok",
+          "descAr": "تطبيق نوستر لأجهزة آيفون وواجهته متوفرة بالعربية.",
+          "pick": false
+        },
+        {
+          "name": "Nostrmo",
+          "url": "https://github.com/haorendashu/nostrmo",
+          "platformsAr": "أندرويد، آيفون، ويندوز، ماك، لينكس، الويب",
+          "arabicSupport": "rtl-ok",
+          "descAr": "تطبيق نوستر يعمل على أندرويد وآيفون والحاسوب وواجهته بالعربية.",
+          "pick": false
+        },
+        {
+          "name": "Iris",
+          "url": "https://iris.to/",
+          "platformsAr": "الويب، أندرويد",
+          "arabicSupport": "partial",
+          "descAr": "موقع نوستر مع تطبيق أندرويد والنصوص مترجمة للعربية جزئيا.",
+          "pick": false
+        },
+        {
+          "name": "Snort",
+          "url": "https://snort.social/",
+          "platformsAr": "الويب",
+          "arabicSupport": "partial",
+          "descAr": "موقع نوستر متكامل والنصوص مترجمة للعربية ولم نجد فيه إعداداً لاتجاه العرض.",
+          "pick": false
+        },
+        {
+          "name": "Primal",
+          "url": "https://primal.net/",
+          "platformsAr": "الويب، آيفون، أندرويد",
+          "arabicSupport": "poor",
+          "descAr": "تطبيق سريع للتصفح مع محفظة مدمجة وواجهته بالإنجليزية فقط.",
+          "pick": false
+        },
+        {
+          "name": "Coracle",
+          "url": "https://coracle.social/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر يركز على المجموعات والاكتشاف عبر شبكة الثقة.",
+          "pick": false
+        },
+        {
+          "name": "Ditto",
+          "url": "https://ditto.pub/",
+          "platformsAr": "الويب، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "منصة اجتماعية على الويب مع تطبيق أندرويد ويمكن لأي مجتمع تشغيل نسخته.",
+          "pick": false
+        },
+        {
+          "name": "Fevela",
+          "url": "https://fevela.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر مصمم ليعيد لك التحكم في وقتك وانتباهك.",
+          "pick": false
+        },
+        {
+          "name": "Lumilumi",
+          "url": "https://lumilumi.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر خفيف جدا ويمكن إيقاف تحميل الصور لتوفير البيانات.",
+          "pick": false
+        },
+        {
+          "name": "Nosotros",
+          "url": "https://nosotros.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر بواجهة مرتبة على شكل أعمدة.",
+          "pick": false
+        },
+        {
+          "name": "Nostria",
+          "url": "https://nostria.app/",
+          "platformsAr": "الويب، ويندوز، ماك، لينكس، آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق نوستر للويب والهاتف والحاسوب وهو سهل على المبتدئين.",
+          "pick": false
+        },
+        {
+          "name": "noStrudel",
+          "url": "https://nostrudel.ninja/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر واسع الخيارات لمن يريد تجربة كل ميزات الشبكة.",
+          "pick": false
+        },
+        {
+          "name": "Nostter",
+          "url": "https://nostter.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع بسيط يشبه تويتر لقراءة المنشورات وكتابتها.",
+          "pick": false
+        },
+        {
+          "name": "Nostur",
+          "url": "https://nostur.com/",
+          "platformsAr": "آيفون، ماك",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق نوستر لأجهزة آيفون وماك.",
+          "pick": false
+        },
+        {
+          "name": "Oddbean",
+          "url": "https://oddbean.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لاكتشاف الأخبار والمحتوى الجديد على الشبكة.",
+          "pick": false
+        },
+        {
+          "name": "Openvibe",
+          "url": "https://openvibe.social/",
+          "platformsAr": "آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق واحد يجمع حسابك على نوستر وماستودون وبلوسكاي.",
+          "pick": false
+        },
+        {
+          "name": "Pollerama",
+          "url": "https://pollerama.fun/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لإنشاء استطلاعات رأي والتصويت عليها.",
+          "pick": false
+        },
+        {
+          "name": "Satellite",
+          "url": "https://satellite.earth/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع نوستر يعرض النقاشات على شكل مواضيع متفرعة.",
+          "pick": false
+        },
+        {
+          "name": "Voyage",
+          "url": "https://github.com/dluvian/voyage",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق أندرويد خفيف يستهلك بيانات قليلة وواجهته بالإنجليزية.",
+          "pick": false
+        },
+        {
+          "name": "YakBak",
+          "url": "https://yakbak.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة لمشاركة الرسائل الصوتية القصيرة والرد عليها بالصوت.",
+          "pick": false
+        },
+        {
+          "name": "Yondar",
+          "url": "https://go.yondar.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق لمشاركة الأماكن التي تحبها مع أصدقائك على الخريطة.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "chat",
+      "nameAr": "رسائل ومحادثات",
+      "descAr": "رسائل مباشرة ومجموعات مغلقة بين المفاتيح.",
+      "apps": [
+        {
+          "name": "0xchat",
+          "url": "https://0xchat.com/",
+          "platformsAr": "أندرويد، آيفون، سطح المكتب",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق محادثات مشفرة يشبه واتساب ويعمل على أندرويد وآيفون. ابدأ به لأنه أقرب تجربة إلى ما تعرفه أصلا.",
+          "pick": true
+        },
+        {
+          "name": "Groups",
+          "url": "https://groups.nip29.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع بسيط للمحادثات الجماعية على نوستر.",
+          "pick": false
+        },
+        {
+          "name": "gupt",
+          "url": "https://gupt.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "محادثات فورية مع مكالمات صوت وفيديو ومشاركة شاشة بدون إعدادات.",
+          "pick": false
+        },
+        {
+          "name": "Keychat",
+          "url": "https://www.keychat.io/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق محادثات مع محفظة بيتكوين مدمجة لأندرويد وآيفون.",
+          "pick": false
+        },
+        {
+          "name": "NostrChat",
+          "url": "https://www.nostrchat.io/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع للمحادثات الجماعية والرسائل الخاصة من المتصفح.",
+          "pick": false
+        },
+        {
+          "name": "VaultChat",
+          "url": "https://vaultchat.pro/",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق محادثات لأندرويد بدون رقم هاتف وبدون بريد إلكتروني.",
+          "pick": false
+        },
+        {
+          "name": "Vector",
+          "url": "https://vectorapp.io/",
+          "platformsAr": "أندرويد، ويندوز، ماك، لينكس",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق محادثات خاصة لأندرويد والحاسوب لا يترك أثرا.",
+          "pick": false
+        },
+        {
+          "name": "White Noise",
+          "url": "https://www.whitenoise.chat/",
+          "platformsAr": "أندرويد، آيفون، ماك، لينكس",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق محادثات جماعية مشفرة يعمل على أندرويد وآيفون والحاسوب.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "communities",
+      "nameAr": "مجتمعات وألعاب",
+      "descAr": "مجموعات وألعاب تعمل على البروتوكول نفسه.",
+      "apps": [
+        {
+          "name": "Blobbi",
+          "url": "https://www.blobbi.pet/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "لعبة تربية حيوان افتراضي تعيش على الشبكة. ابدأ بها لأنها مناسبة للعائلة ولا تحتاج معرفة بالإنجليزية.",
+          "pick": true
+        },
+        {
+          "name": "Flotilla",
+          "url": "https://flotilla.social/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "مساحات ومجموعات للحديث مع الناس حول اهتمام مشترك. ابدأ بها لأنها أبسط طريقة للدخول إلى مجموعة والمشاركة فيها.",
+          "pick": true
+        },
+        {
+          "name": "word5",
+          "url": "https://otherstuff.ai/word5/",
+          "platformsAr": "الويب",
+          "arabicSupport": "poor",
+          "descAr": "لعبة كلمات يومية مجانية تدخل إليها بحساب نوستر. الكلمات بالإنجليزية فقط.",
+          "pick": false
+        },
+        {
+          "name": "Words With Zaps",
+          "url": "https://www.wordswithzaps.top/",
+          "platformsAr": "الويب",
+          "arabicSupport": "poor",
+          "descAr": "لعبة كلمات متقاطعة بين لاعبين اثنين مع مكافآت صغيرة بالبيتكوين. الكلمات بالإنجليزية فقط.",
+          "pick": false
+        },
+        {
+          "name": "Gamestr",
+          "url": "https://gamestr.io/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة ألعاب تعمل على نوستر وتتيح اللعب بين الناس مباشرة دون خادم مركزي.",
+          "pick": false
+        },
+        {
+          "name": "nostr.kiwi",
+          "url": "https://nostr.kiwi/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق ويب لمشاركة المنشورات وتنظيم المحتوى داخل مجتمعات.",
+          "pick": false
+        },
+        {
+          "name": "Obelisk",
+          "url": "https://obelisk.ar/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع محادثات جماعية يشبه ديسكورد مع غرف صوتية.",
+          "pick": false
+        },
+        {
+          "name": "Plektos",
+          "url": "https://plektos.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لإنشاء اللقاءات والفعاليات ومتابعة مواعيدها.",
+          "pick": false
+        },
+        {
+          "name": "Satlantis",
+          "url": "https://www.satlantis.io/",
+          "platformsAr": "آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق لاكتشاف الأماكن والفعاليات والمجتمعات حولك.",
+          "pick": false
+        },
+        {
+          "name": "Treasures",
+          "url": "https://treasures.to/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "لعبة بحث عن الكنوز في أماكن حقيقية حولك.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "photos",
+      "nameAr": "صور",
+      "descAr": "نشر الصور ومتابعتها.",
+      "apps": [
+        {
+          "name": "Olas",
+          "url": "https://olas.app/",
+          "platformsAr": "آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق لمشاركة الصور يشبه إنستغرام. ابدأ به لأن مشاركة الصور لا تحتاج كتابة كثيرة.",
+          "pick": true
+        },
+        {
+          "name": "LUMINA",
+          "url": "https://lumina.rocks/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لتصفح الصور أولا قبل النصوص.",
+          "pick": false
+        },
+        {
+          "name": "Memestr",
+          "url": "https://memestr.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع للصور الطريفة والميمز.",
+          "pick": false
+        },
+        {
+          "name": "Slidestr",
+          "url": "https://slidestr.net/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "عرض الصور على شكل شرائح متتابعة على شاشة كاملة.",
+          "pick": false
+        },
+        {
+          "name": "Zappix",
+          "url": "https://zappix.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لتصفح الصور ومشاركتها ودعم أصحابها بالساتوشي.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "longform",
+      "nameAr": "قراءة وكتابة",
+      "descAr": "مقالات طويلة ومداخل معرفية موقّعة.",
+      "apps": [
+        {
+          "name": "Feeder",
+          "url": "https://f-droid.org/packages/com.nononsenseapps.feeder/",
+          "platformsAr": "أندرويد عبر F-Droid",
+          "arabicSupport": "rtl-ok",
+          "descAr": "قارئ أخبار لأندرويد يدعم نوستر وواجهته متوفرة بالعربية ويعمل دون اتصال. ابدأ به لأنّ أكثره بالعربية ويقرأ بلا إنترنت.",
+          "pick": true
+        },
+        {
+          "name": "Bookstr",
+          "url": "https://bookstr.xyz/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لمتابعة ما تقرأ من كتب ومشاركة رأيك فيها.",
+          "pick": false
+        },
+        {
+          "name": "Boris",
+          "url": "https://www.readwithboris.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لقراءة المقالات الطويلة وحفظ الاقتباسات.",
+          "pick": false
+        },
+        {
+          "name": "Breefly",
+          "url": "https://breefly.social/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "مكان هادئ لقراءة المقالات بدون ضجيج.",
+          "pick": false
+        },
+        {
+          "name": "Decent Newsroom",
+          "url": "https://decentnewsroom.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة لنشر المقالات والمجلات بشكل تعاوني.",
+          "pick": false
+        },
+        {
+          "name": "Highlighter",
+          "url": "https://highlighter.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لقراءة المقالات وتظليل المقاطع المهمة ومشاركتها.",
+          "pick": false
+        },
+        {
+          "name": "MAKIMONO",
+          "url": "https://makimono.lumilumi.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "محرر لكتابة المقالات الطويلة ونشرها.",
+          "pick": false
+        },
+        {
+          "name": "Manent",
+          "url": "https://manent.dtonon.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لقراءة المقالات وكتابتها بواجهة هادئة.",
+          "pick": false
+        },
+        {
+          "name": "Pareto",
+          "url": "https://pareto.space/read",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة نشر مفتوحة للصحافة المستقلة والمقالات الطويلة.",
+          "pick": false
+        },
+        {
+          "name": "Samizdat",
+          "url": "https://samizdat.press/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة نشر يصعب حجبها للكتابة الطويلة.",
+          "pick": false
+        },
+        {
+          "name": "Wikifreedia",
+          "url": "https://wikifreedia.xyz/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موسوعة مفتوحة يكتب فيها كل شخص نسخته الخاصة من المقالة.",
+          "pick": false
+        },
+        {
+          "name": "Wikistr",
+          "url": "https://wikistr.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موسوعة يكتبها الناس ولا تخضع لجهة واحدة.",
+          "pick": false
+        },
+        {
+          "name": "YakiHonne",
+          "url": "https://yakihonne.com/",
+          "platformsAr": "الويب، آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "منصة للمقالات والأخبار القصيرة والفيديو على الويب والهاتف.",
+          "pick": false
+        },
+        {
+          "name": "Zap Cooking",
+          "url": "https://zap.cooking/explore",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لمشاركة وصفات الطبخ وتصفحها.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "streaming",
+      "nameAr": "فيديو",
+      "descAr": "بثّ مباشر ومقاطع مسجّلة.",
+      "apps": [
+        {
+          "name": "Nostube",
+          "url": "https://nostu.be/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لمشاهدة الفيديو ورفعه يشبه يوتيوب.",
+          "pick": false
+        },
+        {
+          "name": "Shosho",
+          "url": "https://shosho.live/",
+          "platformsAr": "أندرويد، آيفون، الويب",
+          "arabicSupport": "unknown",
+          "descAr": "بث مباشر من كاميرا هاتفك مع محادثة مع المتابعين.",
+          "pick": false
+        },
+        {
+          "name": "zap.stream",
+          "url": "https://zap.stream/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "بث مباشر للألعاب والرياضة والموسيقى مع إمكانية الدعم بالساتوشي.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "audio",
+      "nameAr": "صوتيات وموسيقى",
+      "descAr": "بودكاست وموسيقى تعمل بمفتاحك.",
+      "apps": [
+        {
+          "name": "Fountain",
+          "url": "https://fountain.fm/",
+          "platformsAr": "آيفون، أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق للبودكاست والموسيقى على أندرويد وآيفون.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "calls",
+      "nameAr": "مكالمات ولقاءات",
+      "descAr": "اجتماعات صوت وفيديو تدخلها بمفتاحك.",
+      "apps": [
+        {
+          "name": "Corny Chat",
+          "url": "https://cornychat.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "غرف صوتية مفتوحة للحديث والاستماع.",
+          "pick": false
+        },
+        {
+          "name": "HiveTalk",
+          "url": "https://honey.hivetalk.org/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "مكالمات فيديو ومشاركة شاشة من المتصفح بدون تسجيل.",
+          "pick": false
+        },
+        {
+          "name": "Nostr Nests",
+          "url": "https://nostrnests.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "غرف صوتية مباشرة للنقاش والحوار من المتصفح.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "wallets",
+      "nameAr": "محافظ وزاب",
+      "descAr": "إرسال الساتوشي واستقباله.",
+      "apps": [
+        {
+          "name": "Coinos",
+          "url": "https://coinos.io/",
+          "platformsAr": "الويب، أندرويد",
+          "arabicSupport": "rtl-ok",
+          "descAr": "محفظة لايتنينغ سهلة تعمل من المتصفح ومن الهاتف والواجهة متوفرة بالعربية. الرصيد محفوظ لدى الخدمة وليس عندك. ابدأ بها لأنها لا تحتاج تنصيبا وواجهتها بالعربية.",
+          "pick": true
+        },
+        {
+          "name": "Zapper",
+          "url": "https://zapper.nostrapps.org/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "تطبيق صغير لإرسال مبالغ بيتكوين صغيرة لأي منشور على نوستر. ابدأ به لأنه أبسط طريقة لدعم منشور أعجبك.",
+          "pick": true
+        },
+        {
+          "name": "Zeus",
+          "url": "https://zeusln.com/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "rtl-ok",
+          "descAr": "محفظة بيتكوين ولايتنينغ تحفظ فيها مفاتيحك بنفسك وتدعم الزابات على نوستر. الواجهة متوفرة بالعربية.",
+          "pick": false
+        },
+        {
+          "name": "Blink",
+          "url": "https://www.blink.sv/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "partial",
+          "descAr": "محفظة لايتنينغ للاستعمال اليومي على الهاتف. الرصيد محفوظ لدى الشركة وليس عندك.",
+          "pick": false
+        },
+        {
+          "name": "Cashu.me",
+          "url": "https://cashu.me/",
+          "platformsAr": "الويب، أندرويد، آيفون",
+          "arabicSupport": "partial",
+          "descAr": "محفظة كاشو تعمل من المتصفح بلا حساب. الرصيد محفوظ على جهازك. الواجهة مترجمة إلى العربية.",
+          "pick": false
+        },
+        {
+          "name": "Alby",
+          "url": "https://getalby.com/",
+          "platformsAr": "الويب، كروم، فايرفوكس",
+          "arabicSupport": "poor",
+          "descAr": "محفظة لايتنينغ وإضافة متصفح تتيح الدفع والزاب على مواقع نوستر. في الخطة السحابية يبقى الرصيد لدى الخدمة وليس عندك.",
+          "pick": false
+        },
+        {
+          "name": "Alby Go",
+          "url": "https://getalby.com/alby-go",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "poor",
+          "descAr": "محفظة هاتف بسيطة تتصل بمحفظتك عبر NWC وترسل الزابات بسرعة.",
+          "pick": false
+        },
+        {
+          "name": "eNuts",
+          "url": "https://enuts.cash/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "poor",
+          "descAr": "محفظة كاشو للهاتف تحفظ الرصيد على جهازك أنت لا لدى شركة.",
+          "pick": false
+        },
+        {
+          "name": "Minibits",
+          "url": "https://minibits.cash/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "poor",
+          "descAr": "محفظة إيكاش على الهاتف تحفظ الرصيد على جهازك أنت. فقدان الجهاز بلا نسخة احتياطية يعني فقدان الرصيد.",
+          "pick": false
+        },
+        {
+          "name": "npub.cash",
+          "url": "https://npub.cash/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "عنوان لايتنينغ مرتبط بمفتاح نوستر الخاص بك لاستقبال الزابات. الخدمة تحتفظ بالمبالغ إلى أن تسحبها إلى محفظتك.",
+          "pick": false
+        },
+        {
+          "name": "Nutstash",
+          "url": "https://wallet.nutstash.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "محفظة كاشو على الويب تدعم نوستر وتحفظ الرصيد على جهازك.",
+          "pick": false
+        },
+        {
+          "name": "Wallet of Satoshi",
+          "url": "https://www.walletofsatoshi.com/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "unknown",
+          "descAr": "أبسط محفظة لايتنينغ لإرسال واستقبال الساتوشي. الرصيد محفوظ لدى الشركة وليس عندك.",
+          "pick": false
+        },
+        {
+          "name": "ZapPlanner",
+          "url": "https://zapplanner.albylabs.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أداة لجدولة دفعات لايتنينغ متكررة لدعم شخص أو مشروع كل شهر.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "markets",
+      "nameAr": "أسواق وبيع",
+      "descAr": "عرض السلع والشراء بالبيتكوين بلا وسيط.",
+      "apps": [
+        {
+          "name": "Shopstr",
+          "url": "https://shopstr.store/",
+          "platformsAr": "الويب",
+          "arabicSupport": "poor",
+          "descAr": "سوق مفتوح للبيع والشراء بالبيتكوين بلا وسيط وبلا تسجيل هوية. ابدأ به لأنه أسهل سوق للتصفح بلا حساب.",
+          "pick": true
+        },
+        {
+          "name": "Conduit Market",
+          "url": "https://shop.conduit.market/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "سوق يعمل على نوستر لتصفح المتاجر وإتمام الطلب والدفع بالبيتكوين.",
+          "pick": false
+        },
+        {
+          "name": "Milk Market",
+          "url": "https://milk.market/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "متجر بسيط للمنتجين والحرفيين لبيع منتجاتهم مباشرة بلا رسوم منصة.",
+          "pick": false
+        },
+        {
+          "name": "Mostro",
+          "url": "https://mostro.network/",
+          "platformsAr": "أندرويد، آيفون",
+          "arabicSupport": "unknown",
+          "descAr": "تبادل بيتكوين بين الأشخاص مباشرة عبر نوستر بلا وسيط يحتفظ بأموالك وبلا تسجيل هوية.",
+          "pick": false
+        },
+        {
+          "name": "Plebeian Market",
+          "url": "https://plebeian.market/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "سوق بيتكوين للبيع بسعر ثابت وبالمزاد يديره الناس بأنفسهم.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "jobs",
+      "nameAr": "عمل ووظائف",
+      "descAr": "إعلانات عمل وخدمات تتقدّم لها بمفتاحك.",
+      "apps": [
+        {
+          "name": "Ostrich",
+          "url": "https://ostrich.work/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "لوحة وظائف يعرض فيها أصحاب العمل شواغرهم ويتقدم إليها الباحثون عن عمل.",
+          "pick": false
+        },
+        {
+          "name": "SatShoot",
+          "url": "https://satshoot.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة لطلب الخدمات وعرضها والدفع بالساتوشي عبر نوستر.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "appstores",
+      "nameAr": "متاجر التطبيقات",
+      "descAr": "تنزيل تطبيقات موقّعة من مطوّريها.",
+      "apps": [
+        {
+          "name": "Zapstore",
+          "url": "https://zapstore.dev/",
+          "platformsAr": "أندرويد",
+          "arabicSupport": "unknown",
+          "descAr": "متجر تطبيقات للأندرويد يجمع تطبيقات نوستر ويثبتها ويحدثها بدون حساب جوجل.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "nip05",
+      "nameAr": "عناوين نوستر",
+      "descAr": "اسم مقروء يدلّ على مفتاحك.",
+      "apps": [
+        {
+          "name": "nostrcheck.me",
+          "url": "https://nostrcheck.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "خدمة مجانية تمنحك اسما مقروءا على نوستر مع استضافة للصور والملفات. ابدأ بها لأنها مجانية وتجمع الاسم والصور في مكان واحد.",
+          "pick": true
+        },
+        {
+          "name": "Bitcoiner.chat",
+          "url": "https://bitcoiner.chat/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "اسم مجاني على نوستر مع صفحات شرح مبسطة للمبتدئين.",
+          "pick": false
+        },
+        {
+          "name": "Nostr Plebs",
+          "url": "https://nostrplebs.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أقدم خدمة لتسجيل اسم مقروء على نوستر مع باقات مدفوعة.",
+          "pick": false
+        },
+        {
+          "name": "Nostr-Check.com",
+          "url": "https://www.nostr-check.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "خدمة مجانية لتسجيل اسم مقروء على نوستر.",
+          "pick": false
+        },
+        {
+          "name": "NostrAddress.com",
+          "url": "https://nostraddress.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أسماء مقروءة على نوستر مجانية ومدفوعة مع نطاقات مختارة.",
+          "pick": false
+        },
+        {
+          "name": "zaps.lol",
+          "url": "https://zaps.lol/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "خدمة مجانية ومفتوحة المصدر لتسجيل اسم على نوستر.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "mediaservers",
+      "nameAr": "خوادم وسائط",
+      "descAr": "رفع الصور والملفات وتسميتها ببصمة محتواها.",
+      "apps": [
+        {
+          "name": "nostr.build",
+          "url": "https://nostr.build/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لرفع الصور ومقاطع الفيديو ومشاركتها داخل تطبيقات نوستر. ابدأ به لأن أغلب التطبيقات ترفع الصور إليه أصلا.",
+          "pick": true
+        },
+        {
+          "name": "Bloom",
+          "url": "https://bloomapp.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "مدير ملفات يعرض صورك وملفاتك المحفوظة على خوادم الوسائط ويتيح مشاركتها.",
+          "pick": false
+        },
+        {
+          "name": "Blossom Drive",
+          "url": "https://blossom.hzrd149.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "مساحة لمشاركة الملفات تعمل بنظام بلوسوم على نوستر.",
+          "pick": false
+        },
+        {
+          "name": "blossom.band",
+          "url": "https://blossom.band/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "خادم بلوسوم سريع يمنح كل حساب نطاقا خاصا لتخزين ملفاته.",
+          "pick": false
+        },
+        {
+          "name": "nostpic.com",
+          "url": "https://nostpic.com/api/v2/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع لرفع الصور يعمل مع نوستر ويتيح لك لوحة تحكم بملفاتك.",
+          "pick": false
+        },
+        {
+          "name": "NostrMedia.com",
+          "url": "https://nostrmedia.com/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "استضافة للصور ومقاطع الفيديو تعمل مع تطبيقات نوستر.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "tools",
+      "nameAr": "أدوات",
+      "descAr": "بحث وعرض للحسابات، ومتابعة حال الريلايات.",
+      "apps": [
+        {
+          "name": "following.space",
+          "url": "https://following.space/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "حزم متابعة جاهزة تساعدك على إيجاد حسابات تتابعها حسب اهتماماتك. ابدأ به لأنه يملأ صفحتك بحسابات مفيدة من أول يوم.",
+          "pick": true
+        },
+        {
+          "name": "My Grapevine",
+          "url": "https://grapevine.my/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أداة تقترح عليك حسابات تستحق المتابعة اعتمادا على شبكة ثقتك.",
+          "pick": false
+        },
+        {
+          "name": "njump",
+          "url": "https://njump.me/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "موقع يفتح أي رابط نوستر ويعرض المنشور أو الحساب داخل المتصفح مباشرة.",
+          "pick": false
+        },
+        {
+          "name": "nos.today",
+          "url": "https://nos.today/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "محرك بحث يبحث في منشورات نوستر عبر عدة خوادم في وقت واحد.",
+          "pick": false
+        },
+        {
+          "name": "Nostr Follow Organizer",
+          "url": "https://tsukemonogit.github.io/NFO/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أداة لترتيب قائمة من تتابعهم في مجموعات منظمة.",
+          "pick": false
+        },
+        {
+          "name": "nostr.directory",
+          "url": "https://nostr.directory/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "دليل يربط حسابات مواقع التواصل الأخرى بحسابات نوستر لتجد معارفك.",
+          "pick": false
+        },
+        {
+          "name": "nostr.watch",
+          "url": "https://nostr.watch/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "قائمة تعرض خوادم نوستر المتاحة وسرعتها لمن يريد اختيار خوادمه بنفسه. هذه أداة متقدمة وليست للمبتدئ.",
+          "pick": false
+        },
+        {
+          "name": "Nostrich.fun",
+          "url": "https://nostrich.fun/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "دليل لمشاريع وتطبيقات نوستر مع تقييمات من المستخدمين.",
+          "pick": false
+        },
+        {
+          "name": "SnapNostr",
+          "url": "https://snapnostr.app/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "أداة تحول أي منشور إلى صورة نظيفة جاهزة للمشاركة.",
+          "pick": false
+        }
+      ]
+    },
+    {
+      "slug": "dev",
+      "nameAr": "برمجة وتعاون",
+      "descAr": "مستودعات ومراجعات شيفرة، وهي موجّهة إلى المبرمجين.",
+      "apps": [
+        {
+          "name": "gitworkshop",
+          "url": "https://gitworkshop.dev/",
+          "platformsAr": "الويب",
+          "arabicSupport": "unknown",
+          "descAr": "منصة لمشاركة الشيفرة البرمجية والتعاون عليها وهي موجهة إلى المبرمجين.",
+          "pick": false
+        }
+      ]
+    }
+  ]
+}

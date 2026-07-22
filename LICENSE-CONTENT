@@ -1,0 +1,42 @@
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Copyright (c) 2026 Sooly Kobayashi and TKay
+
+The editorial content in this repository is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License.
+
+Full licence text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+
+WHAT THIS COVERS
+
+  content/                                      the Arabic site pages
+
+The software in this repository is licensed separately under the MIT licence.
+See LICENSE.
+
+YOU ARE FREE TO
+
+  Share    copy and redistribute the material in any medium or format
+  Adapt    remix, transform, and build upon the material for any purpose,
+           including commercially
+
+UNDER THESE TERMS
+
+  Attribution   Give appropriate credit to NostrArabia, provide a link to the
+                licence, and indicate if changes were made.
+  ShareAlike    If you remix or build upon the material, you must distribute
+                your contributions under this same licence.
+
+WHY SHAREALIKE
+
+This is Arabic-language Nostr education, a public good that barely exists. The
+ShareAlike term means translations, forks and derived teaching material stay
+open to the next Arabic speaker who needs them.
+
+THIRD-PARTY MATERIAL
+
+Some educational material is adapted from third-party sources, notably Derek
+Ross's Nostr education. Those adaptations carry their own attribution
+requirements, which are additional to this licence and not waived by it. See
+`content/ar/credits.md`.

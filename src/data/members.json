@@ -1,0 +1,182 @@
+{
+  "generated": "2026-07-21",
+  "count": 35,
+  "relay": "wss://relay.nostrarabia.com",
+  "members": [
+    {
+      "handle": "44",
+      "nip05": "44@nostrarabia.com",
+      "npub": "npub1gznmzyzs5uu35zpd4uykzrqm6q7krqeueyg2qwwea8mls6w0vlaqg5p6ps"
+    },
+    {
+      "handle": "abuali",
+      "nip05": "abuali@nostrarabia.com",
+      "npub": "npub1qy8d3rxtd3wqyfzrtlxuvuk2kx8dqjzqcl2vw0r32t78gqqxrh4qnc8yun"
+    },
+    {
+      "handle": "acil",
+      "nip05": "acil@nostrarabia.com",
+      "npub": "npub15fws6q2zxkl9fsh7hsfwa8rsnc7gcclhkqj6hzrf8r49djdvp5dsggk67t"
+    },
+    {
+      "handle": "AlexBarq",
+      "nip05": "AlexBarq@nostrarabia.com",
+      "npub": "npub1l87ru4sduq62v6ud4dx6heaua5f5x55nkd3uh9u6ryelsg5elqzswyeyar"
+    },
+    {
+      "handle": "alp",
+      "nip05": "alp@nostrarabia.com",
+      "npub": "npub175nul9cvufswwsnpy99lvyhg7ad9nkccxhkhusznxfkr7e0zxthql9g6w0"
+    },
+    {
+      "handle": "amrush",
+      "nip05": "amrush@nostrarabia.com",
+      "npub": "npub19xfxa9yvujd235ftrcfrmscwka7rnzas4qe9cle247s2sxst8wfq7syr7v"
+    },
+    {
+      "handle": "arabichodl",
+      "nip05": "arabichodl@nostrarabia.com",
+      "npub": "npub1yf70umschxkck8ktlcja7huh2wk46zpvd9npaf3lfzjx9vtyjrdsmrs6wn"
+    },
+    {
+      "handle": "bahar",
+      "nip05": "bahar@nostrarabia.com",
+      "npub": "npub16rvkfqfm9uhlj59h3jnq26up29seyl5k5qw0k0pu8a22l7l3rh3sgxhjpu"
+    },
+    {
+      "handle": "bam",
+      "nip05": "bam@nostrarabia.com",
+      "npub": "npub1fuga6qv0mjyu4ru0r4cet7dnw0w4wz8r7k3myf72araypn0tnu7q7hpfdu"
+    },
+    {
+      "handle": "bitcoin_way",
+      "nip05": "bitcoin_way@nostrarabia.com",
+      "npub": "npub1ge8gsaf4r3j4g5na6jarqudqun6xdd4s8qegyez4g0ecpd7ljt7sg647th"
+    },
+    {
+      "handle": "cryptonator",
+      "nip05": "cryptonator@nostrarabia.com",
+      "npub": "npub1rele8vjnuu8qxuu7m3z2dxmlxg94jnqsuq4947awa9fa7hrhn3uq55gmsh"
+    },
+    {
+      "handle": "CUTS",
+      "nip05": "CUTS@nostrarabia.com",
+      "npub": "npub1qavd4j87v5kghxxrgew7ej3x6sx5643q7a8f07m35wlygwupu87qd5w72g"
+    },
+    {
+      "handle": "fahmawi",
+      "nip05": "fahmawi@nostrarabia.com",
+      "npub": "npub1yxqetxmputud2kl6w29clpq5mjacxjt2jtwfzhegxnah0q8s6f7sxmtg0g"
+    },
+    {
+      "handle": "H",
+      "nip05": "H@nostrarabia.com",
+      "npub": "npub1qv50yj64px0nm2xua48qf5sdentws2r06qf3jpd5wnkmahp0kh3qz2mx8m"
+    },
+    {
+      "handle": "ibnimam",
+      "nip05": "ibnimam@nostrarabia.com",
+      "npub": "npub17veg2gt7ja4dnjhs23jyttvpqlde3ajevlxuumxwghnqmgqwuv4q78cc5z"
+    },
+    {
+      "handle": "IslamicAudiobooksCentral",
+      "nip05": "IslamicAudiobooksCentral@nostrarabia.com",
+      "npub": "npub12yqn2f5z3wkx5x8q0w22pd8nc0fn0jtqf76u677fk06yftaujmsscfkjum"
+    },
+    {
+      "handle": "ismail",
+      "nip05": "ismail@nostrarabia.com",
+      "npub": "npub1q0keskdnahnk57yrhnsc6f44789ewnux0keysnngd95sl8pqaj0qjet2ms"
+    },
+    {
+      "handle": "itdestro",
+      "nip05": "itdestro@nostrarabia.com",
+      "npub": "npub1zt5hfgx888qrlxy7adz3066d6h93ryc46uan6xywa45lqaf08k8qgwwraw"
+    },
+    {
+      "handle": "jalmoud",
+      "nip05": "jalmoud@nostrarabia.com",
+      "npub": "npub13u9py8jk3cca4egjuyurz77rn0wfdjhymeauwncertxyjfqr3yysyr6sgc"
+    },
+    {
+      "handle": "kasim",
+      "nip05": "kasim@nostrarabia.com",
+      "npub": "npub1l9n9f5f27r7aa82wdyzvrv7cjvvdgf7k4hprm7zqc9u3u9aag6csnp48a9"
+    },
+    {
+      "handle": "Mohammed",
+      "nip05": "Mohammed@nostrarabia.com",
+      "npub": "npub1pf0mzwx08tlvs4kdcv799g2cwg6qz65aw9wldvqaa694fzxrfzsqllcscq"
+    },
+    {
+      "handle": "MuaawiyahTucker",
+      "nip05": "MuaawiyahTucker@nostrarabia.com",
+      "npub": "npub1h34n29f3wqvcht0jyhnd36jxcdmljyqjv4vdjfrd69nhxhrdvvnsgwr4h0"
+    },
+    {
+      "handle": "MuslimBitcoiner",
+      "nip05": "MuslimBitcoiner@nostrarabia.com",
+      "npub": "npub1uzfp6cgwue2njm86cmyeq7m26y0n58w72acq98sjsnnv4c87002s6857h3"
+    },
+    {
+      "handle": "nostrarabia",
+      "nip05": "nostrarabia@nostrarabia.com",
+      "npub": "npub1syk07kh6tkwrksyzhqk8qdjul5kj08p842gjxyacljlavhzq4m4slmdu3p"
+    },
+    {
+      "handle": "nour",
+      "nip05": "nour@nostrarabia.com",
+      "npub": "npub1q2s36929z99tv0pfjkqf8jgmn7yxrrjklmsr0wwjl2707vhk965sp7dx3u"
+    },
+    {
+      "handle": "obaidaldadi",
+      "nip05": "obaidaldadi@nostrarabia.com",
+      "npub": "npub1gkwzvshpc0xpcn4dsmd6uwmersfd0xc8xw7zna09kel9j9m3cr4ssfy6c4"
+    },
+    {
+      "handle": "palestine",
+      "nip05": "palestine@nostrarabia.com",
+      "npub": "npub17smaq2k7hjkww4hak5msa5uzmp5g8m2st5clxdat8ehu0pajkvpq8lnrrk"
+    },
+    {
+      "handle": "powmaxi",
+      "nip05": "powmaxi@nostrarabia.com",
+      "npub": "npub1pa0lffajkl3uqe2uu9mu6r6e5gxkfnay2jcawy0q3mnm69rw6ejshj03w5"
+    },
+    {
+      "handle": "saad",
+      "nip05": "saad@nostrarabia.com",
+      "npub": "npub1qntwuu24q5lq0g94sz522nzaa646s3gtzklngazxymvl0zdcyzps889v2d"
+    },
+    {
+      "handle": "seewaan",
+      "nip05": "seewaan@nostrarabia.com",
+      "npub": "npub1cr0qa9ya2egrlruwy8sqhsnc5z74gtht3nr9yg0kkjc9vaxlfnnszjxmaa"
+    },
+    {
+      "handle": "sooly",
+      "nip05": "sooly@nostrarabia.com",
+      "npub": "npub1hzz35pkl67w53lpj2g62zh56g63j5zvz4q3m2nxlsfg5hxcjpwssaynqel"
+    },
+    {
+      "handle": "SovereignArab",
+      "nip05": "SovereignArab@nostrarabia.com",
+      "npub": "npub1tdhrj6zzrgq7q2vecgkadywhepvz5xh2wewkdk4awp8wk28v876qytnp6k"
+    },
+    {
+      "handle": "tkay",
+      "nip05": "tkay@nostrarabia.com",
+      "npub": "npub1nje4ghpkjsxe5thcd4gdt3agl2usxyxv3xxyx39ul3xgytl5009q87l02j"
+    },
+    {
+      "handle": "tkayar",
+      "nip05": "tkayar@nostrarabia.com",
+      "npub": "npub15j5a793saudj7g4ncka9dg28w0ptn8m6n6h6egcd04heqan6ek0s7nzgl0"
+    },
+    {
+      "handle": "yasser",
+      "nip05": "yasser@nostrarabia.com",
+      "npub": "npub1qcun3sfndxtz35lkh3ms0dq8pdpskmy8pc9wn7zxx4asyj7xrhxs755tw2"
+    }
+  ]
+}
