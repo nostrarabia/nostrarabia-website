@@ -60,7 +60,7 @@ NostrArabia لن يطلب منك `nsec` أبداً.
 
 `wss://relay.nostrarabia.com`
 
-[انسخ الريلاي واتبع الخطوات](/relay/connect)
+[انسخ الريلاي واتبع الخطوات](/start)
 
 ## من بنى NostrArabia؟
 

@@ -164,7 +164,18 @@ export default function Home() {
             value="wss://relay.nostrarabia.com"
             copyLabel="انسخ عنوان الريلاي"
             status={<StatusPill endpoint="/api/relay-status" service="الريلاي" />}
-            micro="القراءة مفتوحة للجميع، والنشر بقائمة معتمدة."
+            micro={
+              <>
+                القراءة مفتوحة للجميع، والنشر بقائمة معتمدة. اعرف{" "}
+                <Link
+                  href="/start"
+                  className="underline decoration-brand-border-ui decoration-1 underline-offset-[3px] transition-colors hover:text-brand-orange hover:decoration-brand-orange active:opacity-70"
+                >
+                  كيف تضيفه إلى تطبيقك
+                </Link>
+                .
+              </>
+            }
           />
           <WireRow
             label="خادم الوسائط"
@@ -173,11 +184,11 @@ export default function Home() {
             status={<StatusPill endpoint="/api/media-status" service="خادم الوسائط" />}
             micro={
               <>
-                يحفظ الصور والملفات، ويعمل ببروتوكول{" "}
+                يحفظ الصور والملفات ببروتوكول{" "}
                 <bdi dir="ltr" lang="en">
                   Blossom
                 </bdi>
-                .
+                . والرفع عليه بقائمة معتمدة، من تطبيق يدعمه، لا بفتح العنوان.
               </>
             }
           />
