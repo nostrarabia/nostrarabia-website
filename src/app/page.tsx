@@ -184,11 +184,20 @@ export default function Home() {
             status={<StatusPill endpoint="/api/media-status" service="خادم الوسائط" />}
             micro={
               <>
-                يحفظ الصور والملفات ببروتوكول{" "}
-                <bdi dir="ltr" lang="en">
-                  Blossom
-                </bdi>
-                . والرفع عليه بقائمة معتمدة، من تطبيق يدعمه، لا بفتح العنوان.
+                لرفع صورك وملفاتك،{" "}
+                <a
+                  href="https://media.nostrarabia.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline decoration-brand-border-ui decoration-1 underline-offset-[3px] transition-colors hover:text-brand-orange hover:decoration-brand-orange active:opacity-70"
+                >
+                  افتحه
+                  <span aria-hidden="true" className="ms-1">
+                    ↗
+                  </span>
+                  <span className="sr-only">, يفتح في نافذة جديدة</span>
+                </a>{" "}
+                واسحب ملفك إليه. يحتاج الرفع إلى إضافة نوستر في المتصفح للتوقيع، وهو للأعضاء المعتمدين.
               </>
             }
           />
