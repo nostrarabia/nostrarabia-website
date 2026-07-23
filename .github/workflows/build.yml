@@ -79,7 +79,7 @@ jobs:
           grep -iq '^content-type: *application/json' /tmp/nj.hdr || { echo "::error::nostr.json wrong content-type"; fail=1; }
           grep -iq '^access-control-allow-origin: *\*' /tmp/nj.hdr || { echo "::error::nostr.json missing CORS *"; fail=1; }
           n=$(jq '.names | length' /tmp/nj.json 2>/dev/null || echo 0)
-          [ "$n" = "35" ] || { echo "::error::nostr.json has $n names, expected 35"; fail=1; }
+          [ "$n" = "36" ] || { echo "::error::nostr.json has $n names, expected 36 (35 members + the arabi alias of the nostrarabia profile)"; fail=1; }
 
           # 3) Dynamic API routes function (200 + a valid state). We do NOT assert
           #    'online' — the upstream relay/media could be transiently down and that
