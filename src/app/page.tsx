@@ -429,7 +429,7 @@ export default function Home() {
         <div className="mt-6">
           <WireRow
             label="الاسم المقروء"
-            value="nostrarabia@nostrarabia.com"
+            value="arabi@nostrarabia.com"
             copyLabel="انسخ الاسم المقروء لحساب نوستر عربيّة"
             micro="اسم يسهل حفظه، ويُتحقَّق منه من هذا الموقع نفسه، فمن انتحله لن يستطيع تزوير التحقّق."
           />
